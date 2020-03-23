@@ -18,13 +18,12 @@
         <div></div>
       </q-toolbar>
     </q-header>
-
     <q-footer class="text-center bg-grey-8">
       <q-tabs>
         <q-route-tab to="/" icon="home" label="Home"/>
         <q-route-tab to="/Product" icon="store" label="Product"/>
-        <q-tab icon="assignment" label="Stock product"/>
-        <q-tab icon="check_circle" label="Buy"/>
+        <q-route-tab to="/Sold" icon="assignment" label="Stock product"/>
+        <q-route-tab to="/Buy"  icon="check_circle" label="Buy"/>
       </q-tabs>
     </q-footer>
 

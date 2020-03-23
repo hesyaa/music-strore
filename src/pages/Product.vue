@@ -95,4 +95,7 @@ q-btn {
 h1{
     text-shadow: gray 2px 2px 4px;
 }
+.pages {
+    padding: 30px;
+}
 </style>

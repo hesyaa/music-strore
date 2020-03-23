@@ -1,5 +1,5 @@
 <template>
-  <q-page class="">
+   <div class="pages">
     <div class="container">
         <h2 class="text-center">Stock Product</h2>
         <div class="table">
@@ -13,7 +13,7 @@
         </div>
         <!-- <Test></Test> -->
     </div>
-  </q-page>
+   </div>
 </template>
 
 <script>
@@ -82,7 +82,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .table {
         width: 90%;
         border: 1px solid lightgray;

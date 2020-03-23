@@ -59,7 +59,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .header {
     background-image:url('/statics/Music.jpg');
     padding: 80px;
